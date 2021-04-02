@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "paulevs.beb.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"ServerPlayerConnectionManagerMixin",
+		"McRegionDimensionFileMixin",
+		"MinecraftServerMixin",
+		"DimensionFileMixin",
+		"PlayerBaseMixin",
+		"DimensionMixin"
+	],
+	"server": [],
+	"client": [
+		"AbstractClientPlayerMixin",
+		"WorldRendererMixin",
+		"DimensionMixin",
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
